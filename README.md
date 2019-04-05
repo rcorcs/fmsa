@@ -1,8 +1,6 @@
 # Function Merging by Sequence Alignment
-
-This file implements the general function merging optimization.
   
-It identifies similarities between functions, and If profitable, merges them
+It identifies similarities between functions, and if profitable, merges them
 into a single function, replacing the original ones. Functions do not need
 to be identical to be merged. In fact, there is very little restriction to
 merge two function, however, the produced merged function can be larger than
@@ -28,5 +26,4 @@ produces a profitable result, the merged function is taken.
 
 # Reference
 
-"Function Merging by Sequence Alignment",
-Rodrigo C. O. Rocha, Pavlos Petoumenos, Zheng Wang, Murray Cole, Hugh Leather. International Symposium on Code Generation and Optimization, 2019 (CGO'19).
+Rodrigo C. O. Rocha, Pavlos Petoumenos, Zheng Wang, Murray Cole, Hugh Leather; "Function Merging by Sequence Alignment". International Symposium on Code Generation and Optimization, 2019 (CGO'19).
